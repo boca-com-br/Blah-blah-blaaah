@@ -4,91 +4,91 @@
 
 # Definición
 
-my_list = list()
-my_other_list = []
+my_listita = list()
+my_other_listita = []
 
-print(len(my_list))
+print(len(my_listita))
 
-my_list = [35, 24, 62, 52, 30, 30, 17]
+my_listita = [35, 24, 62, 52, 30, 30, 17]
 
-print(my_list)
-print(len(my_list))
+print(my_listita)
+print(len(my_listita))
 
-my_other_list = [35, 1.77, "Brais", "Moure"]
+my_other_listita = [35, 1.77, "Brais", "Moure"]
 
-print(type(my_list))
-print(type(my_other_list))
+print(type(my_listita))
+print(type(my_other_listita))
 
 # Acceso a elementos y búsqueda
 
-print(my_other_list[0])
-print(my_other_list[1])
-print(my_other_list[-1])
-print(my_other_list[-4])
-print(my_list.count(30))
+print(my_other_listita[0])
+print(my_other_listita[1])
+print(my_other_listita[-1])
+print(my_other_listita[-4])
+print(my_listita.count(30))
 # print(my_other_list[4]) IndexError
 # print(my_other_list[-5]) IndexError
 
-print(my_other_list.index("Brais"))
+print(my_other_listita.index("Brais"))
 
-age, height, name, surname = my_other_list
+age, height, name, surname = my_other_listita
 print(name)
 
-name, height, age, surname = my_other_list[2], my_other_list[1], my_other_list[0], my_other_list[3]
+name, height, age, surname = my_other_listita[2], my_other_listita[1], my_other_listita[0], my_other_listita[3]
 print(age)
 
 # Concatenación
 
-print(my_list + my_other_list)
+print(my_listita + my_other_listita)
 #print(my_list - my_other_list)
 
 # Creación, inserción, actualización y eliminación
 
-my_other_list.append("MoureDev")
-print(my_other_list)
+my_other_listita.append("MoureDev")
+print(my_other_listita)
 
-my_other_list.insert(1, "Rojo")
-print(my_other_list)
+my_other_listita.insert(1, "Rojo")
+print(my_other_listita)
 
-my_other_list[1] = "Azul"
-print(my_other_list)
+my_other_listita[1] = "Azul"
+print(my_other_listita)
 
-my_other_list.remove("Azul")
-print(my_other_list)
+my_other_listita.remove("Azul")
+print(my_other_listita)
 
-my_list.remove(30)
-print(my_list)
+my_listita.remove(30)
+print(my_listita)
 
-print(my_list.pop())
-print(my_list)
+print(my_listita.pop())
+print(my_listita)
 
-my_pop_element = my_list.pop(2)
+my_pop_element = my_listita.pop(2)
 print(my_pop_element)
-print(my_list)
+print(my_listita)
 
-del my_list[2]
-print(my_list)
+del my_listita[2]
+print(my_listita)
 
 # Operaciones con listas
 
-my_new_list = my_list.copy()
+my_new_listita = my_listita.copy()
 
-my_list.clear()
-print(my_list)
-print(my_new_list)
+my_listita.clear()
+print(my_listita)
+print(my_new_listita)
 
-my_new_list.reverse()
-print(my_new_list)
+my_new_listita.reverse()
+print(my_new_listita)
 
 my_new_list.sort()
-print(my_new_list)
+print(my_new_listita)
 
 # Sublistas
 
-print(my_new_list[1:3])
+print(my_new_listita[1:3])
 
 # Cambio de tipo
 
-my_list = "Hola Python"
-print(my_list)
-print(type(my_list))
+my_listita = "Hola Python"
+print(my_listita)
+print(type(my_listita))
